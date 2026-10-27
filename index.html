@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#c1d9d9">
+  <meta name="description" content="王兆鑫的个人作品集：AI 产品、项目与工作经历。">
+  <title>王兆鑫 / 个人作品集</title>
+  <link rel="preload" href="assets/welcome-final.png" as="image">
+  <link rel="preload" href="assets/board-final.png" as="image">
+  <link rel="preload" href="assets/project-without-report.png" as="image">
+  <link rel="preload" href="assets/project-report.png" as="image">
+  <link rel="preload" href="assets/detail-project.png" as="image">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="entry-page">
+  <main class="portfolio" aria-label="王兆鑫个人作品集">
+    <section class="screen board-screen" id="board" aria-label="洞洞板主页面" aria-hidden="true" inert>
+      <div class="board-canvas">
+        <img class="board-base" src="assets/board-stationary.png" alt="王兆鑫的洞洞板作品集。左侧为简介与联系方式，右侧挂有工作之外、项目、工作经历、技能与联系卡片。">
+        <img class="detail-background" src="assets/detail-background.jpg" alt="" aria-hidden="true">
+        <button class="detail-backdrop" type="button" aria-label="关闭展开内容，返回洞洞板"></button>
+        <img class="detail-key-photo" src="assets/detail-key.jpg" alt="" aria-hidden="true">
+        <div class="detail-key-photo-hit" aria-hidden="true"></div>
+        <button class="detail-key-exit" type="button" aria-label="退出工作之外，返回洞洞板"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button>
+        <div class="detail-page-view project-view" data-page-view="project" aria-hidden="true">
+          <img class="project-base" src="assets/project-without-report.png" alt="慧开店 Agent 与圆桌会议项目详情">
+          <img class="project-report" src="assets/project-report.png" alt="">
+          <img class="project-foreground" src="assets/project-without-report.png" alt="" aria-hidden="true">
+          <img class="project-final" src="assets/detail-project.png" alt="" aria-hidden="true">
+          <img class="project-card-sway project-card-sway-left" src="assets/project-card-layers.png" alt="" aria-hidden="true">
+          <img class="project-card-sway project-card-sway-right" src="assets/project-card-layers.png" alt="" aria-hidden="true">
+          <img class="project-overlay-hints" src="assets/project-overlay-hints.png" alt="" aria-hidden="true">
+          <svg class="project-roundtable-title" viewBox="0 0 3840 2400" preserveAspectRatio="none" aria-hidden="true"><text x="2998" y="327">圆桌会谈”</text></svg>
+          <a class="project-agent-link" href="https://yongge-restaurant-agent.app.workbuddy.host/?sharecode=MKSXBPPY2G&amp;v=2" target="_blank" rel="noopener noreferrer" aria-label="打开左侧慧开店 Agent 项目网站"></a>
+          <a class="project-roundtable-link" href="https://a3vebzbslgmsc.ok.kimi.link/" target="_blank" rel="noopener noreferrer" aria-label="打开右侧圆桌会议项目网站"></a>
+        </div>
+        <div class="detail-page-view" data-page-view="experience" aria-hidden="true"><img src="assets/detail-experience.png" alt="工作经历与项目成果详情"></div>
+        <button class="detail-page-exit" type="button" aria-label="关闭当前页面，返回洞洞板"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+        <button class="artifact artifact-key" data-artifact="key" style="left:24.444%;top:7.444%;width:11.25%;height:35.889%" aria-label="工作之外钥匙扣" type="button"><img src="assets/object-key.png" alt=""></button>
+        <button class="artifact artifact-file" data-artifact="file" style="left:41.528%;top:15.889%;width:26.111%;height:61.556%" aria-label="工作项目文件夹" type="button"><img src="assets/object-file.png" alt=""></button>
+        <button class="artifact artifact-id" data-artifact="id" style="left:72.778%;top:7.222%;width:17.847%;height:31.667%" aria-label="工作经历工牌" type="button"><img src="assets/object-id.png" alt=""></button>
+        <button class="artifact artifact-skills" data-artifact="skills" style="left:27.361%;top:49.778%;width:11.667%;height:33.778%" aria-label="工作技能吊牌" type="button"><img src="assets/object-skills.png" alt=""></button>
+        <div class="artifact artifact-contact" data-artifact="contact" style="left:71.042%;top:63.556%;width:13.819%;height:25%" aria-hidden="true"><img src="assets/object-contact.png" alt=""></div>
+        <button class="artifact artifact-note" data-artifact="note" style="left:87.431%;top:46%;width:9.444%;height:37.111%" aria-label="右侧纸质吊牌" type="button"><img src="assets/object-note.png" alt=""></button>
+        <button class="legend-target" data-target="key" style="top:35.3%" type="button" aria-label="01 Key Tag，晃动工作之外钥匙扣"></button>
+        <button class="legend-target" data-target="file" style="top:37.8%" type="button" aria-label="02 Clear File，晃动工作项目文件夹"></button>
+        <button class="legend-target" data-target="id" style="top:40.3%" type="button" aria-label="03 ID Card，晃动工作经历工牌"></button>
+        <button class="legend-target" data-target="skills" style="top:42.8%" type="button" aria-label="04 Black Badge，晃动工作技能吊牌"></button>
+      </div>
+    </section>
+
+    <section class="screen welcome-screen" id="welcome" aria-label="折纸开屏">
+      <canvas class="fold-canvas" id="fold-scene" width="1440" height="900" role="img" aria-label="欢迎卡纸连续折叠两次，露出洞洞板作品集。"></canvas>
+    </section>
+  </main>
+  <script src="board-motion.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
